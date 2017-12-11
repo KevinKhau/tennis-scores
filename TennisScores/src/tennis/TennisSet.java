@@ -55,7 +55,7 @@ public class TennisSet extends Confrontation {
 	@Override
 	public String toString() {
 		StringBuilder sb = new StringBuilder("TennisSet [winner= ");
-		sb.append(this.winner).append(" VS ").append(this.loser).append(']');
+		sb.append('(').append(this.winner).append(") VS (").append(this.loser).append(")]");
 		for (Game game : games) {
 			sb.append('\n').append(game);
 		}
